@@ -75,8 +75,8 @@ Vagrant.configure("2") do |config|
       "CELLULOID_PG_IDLE_TIMEOUT" => "30000",
       "CELLULOID_COOKIE_SECRET" => "c7gGEvPZfke5aDN626E13Voo8NmUoxix",
       "CELLULOID_SMTP_HOST" => "smtp.gmail.com",
-      "CELLULOID_SMTP_USER" => "napulen",
-      "CELLULOID_SMTP_PASSWORD" => "lllxbeobphqjetuh",
+      "CELLULOID_SMTP_USER" => "REPLACE_THIS_WITH_GMAIL_USER",
+      "CELLULOID_SMTP_PASSWORD" => "REPLACE_THIS_WITH_APP_PASSWORD",
       "CELLULOID_SMTP_TLS" => "true",
       "CELLULOID_SMTP_PORT" => "587"
     }
